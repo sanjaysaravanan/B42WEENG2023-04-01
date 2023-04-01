@@ -1,0 +1,39 @@
+Recap:
+passing data from child to parent
+
+Lifecycle of a Component
+  Mounting ---> Component is Been added to the DOM
+  Updating ---> Dependency Array State/Props update inside a component
+  Unmounting ---> Component is removed from the DOM
+    return callbackl inside the callback of the useEffect
+    use Separate useEffect
+
+  useState & useEffect
+  
+  props drilling ---> passing data as props from parent to child or deeper levels
+  Keep the props passing at one or max two level, do not pass props beyond this limit
+
+Create an application like below with Mock APIs,
+  with Option for the following,
+    1. Add a New Movie (  )
+    2. Edit a Movie --> Session Task
+    3. Delete a Movie
+
+Component Children
+Install ESLint Extension in VScode
+
+Next Session:
+useTheme hook from mui
+  1. use theme props inside components
+  2. Breakpoints with mui
+React-Router-DOM:
+  Routing
+  Router
+  Routes
+    Layout
+    path
+    Link
+    path-params --> useParams 
+    query params --> useSearchParams
+    useLocation
+
